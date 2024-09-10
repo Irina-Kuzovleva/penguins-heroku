@@ -42,7 +42,7 @@ else:
 
 # Combines user input features with entire penguins dataset
 # This will be useful for the encoding phase
-penguins_raw = pd.read_csv('https://github.com/Irina-Kuzovleva/penguins-heroku/blob/master/penguins_example.csv', error_bad_lines=False, sep=',')
+penguins_raw = pd.read_csv('https://github.com/Irina-Kuzovleva/penguins-heroku/blob/master/penguins_example.csv', sep=',')
 penguins = penguins_raw.drop(columns=['species'], axis=1)
 df = pd.concat([input_df,penguins],axis=0)
 
