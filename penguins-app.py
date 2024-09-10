@@ -1,4 +1,4 @@
-!pip install scikit-learn==1.2.2
+!pip install scikit-learn==1.3.0
 
 import streamlit as st
 import pandas as pd
